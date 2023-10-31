@@ -14,6 +14,9 @@ const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 23px 80px 24px 81px;
+  background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+
 
   @media (max-width: 768px) {
     padding: 20px 10px;
