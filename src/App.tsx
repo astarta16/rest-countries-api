@@ -1,6 +1,10 @@
+import Header from "./components/Header";
+
 function App() {
 return (
-  <div>hello ts</div>
+  <div>
+    <Header />
+  </div>
 );
 }
 
