@@ -3,6 +3,7 @@ import create from "zustand";
 type ThemeStore = {
   darkMode: boolean;
   toggleDarkMode: () => void;
+  isDarkMode: boolean;
 };
 
 export const useThemeStore = create<ThemeStore>((set) => ({

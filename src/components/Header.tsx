@@ -25,7 +25,7 @@ const HeaderContainer = styled.div<{ darkMode: boolean }>`
   @media (max-width: 768px) {
     padding: 20px 10px;
   }
-}`;
+`;
 
 const Title = styled.h1<{ darkMode: boolean }>`
   font-size: 24px;
@@ -34,4 +34,4 @@ const Title = styled.h1<{ darkMode: boolean }>`
   @media (max-width: 768px) {
     font-size: 20px;
   }
-}`;
+`;
