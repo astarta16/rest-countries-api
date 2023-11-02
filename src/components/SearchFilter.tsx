@@ -42,8 +42,13 @@ const SearchFilterContainer = styled.div<{ darkMode: boolean }>`
   background: ${(props) => (props.darkMode ? "#000" : "#FAFAFA")};
   color: ${(props) => (props.darkMode ? "#FAFAFA" : "#111517")};
   flex-wrap: wrap;
+
   @media (min-width: 768px) {
     padding: 23px 80px 24px 81px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding: 23px 40px 24px 41px;
   }
 `;
 
@@ -59,6 +64,10 @@ const SearchInputContainer = styled.div`
   flex-wrap: wrap;
 
   @media (max-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1150px) {
     margin-bottom: 20px;
   }
 `;
@@ -97,9 +106,12 @@ const FilterButton = styled.button`
   align-items: center;
   font-size: 16px;
   font-weight: 400;
-
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding: 20px;
+  }
 `;
 
 const FilterOptions = styled.div`
