@@ -97,6 +97,7 @@ const FilterButton = styled.button`
   align-items: center;
   font-size: 16px;
   font-weight: 400;
+
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
 `;

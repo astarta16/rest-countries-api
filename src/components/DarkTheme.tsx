@@ -3,16 +3,17 @@ import MoonImage from "../assets/Group 3.svg";
 import styled from "styled-components";
 
 export default function DarkTheme() {
-  const { toggleDarkMode, isDarkMode } = useThemeStore();
+  const { toggleDarkMode, darkMode } = useThemeStore();
 
   return (
     <div>
-      <Button darkMode={isDarkMode} onClick={toggleDarkMode}>
+      <Button darkMode={darkMode} onClick={toggleDarkMode}>
         <Icon src={MoonImage} alt="Moon" />
       </Button>
     </div>
   );
 }
+
 interface ButtonProps {
   darkMode: boolean;
 }
