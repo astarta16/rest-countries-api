@@ -1,5 +1,3 @@
-import styled from "styled-components";
-import { useThemeStore } from "./themeStore";
 import axios from "axios";
 
 function FlagsCard() {
@@ -13,14 +11,7 @@ function FlagsCard() {
   };
 
   getData();
-  return <ContainerFlags>I am flag</ContainerFlags>;
+  return <div></div>
 }
 
 export default FlagsCard;
-
-const ContainerFlags = styled.div`
-  padding: 23px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
