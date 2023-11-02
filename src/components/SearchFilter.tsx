@@ -62,6 +62,7 @@ const SearchInputContainer = styled.div`
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
   position: relative;
   flex-wrap: wrap;
+  height: 100%;
 
   @media (max-width: 768px) {
     margin-bottom: 20px;

@@ -58,7 +58,7 @@ export default FlagsCard;
 const CardGrid = styled.div`
   display: grid;
   gap: 20px;
-  width: 90%;
+  width: 85%;
   justify-content: center;
   margin: 0 auto;
 

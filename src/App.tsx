@@ -7,6 +7,7 @@ import { useThemeStore } from "./components/themeStore";
 const PageContainer = styled.div<{ darkMode: boolean }>`
   background: ${(props) => (props.darkMode ? "#202C36" : "#FFF")};
   transition: background 0.3s;
+  min-height: 100vh;
 `;
 
 function App() {
