@@ -39,7 +39,7 @@ const SearchFilterContainer = styled.div<{ darkMode: boolean }>`
   justify-content: space-between;
   align-items: center;
   padding: 23px 10px;
-  background: ${(props) => (props.darkMode ? "#000" : "#FAFAFA")};
+  background: ${(props) => (props.darkMode ? "#202C36" : "#FAFAFA")};
   color: ${(props) => (props.darkMode ? "#FAFAFA" : "#111517")};
   flex-wrap: wrap;
 
