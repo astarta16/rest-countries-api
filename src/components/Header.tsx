@@ -18,7 +18,7 @@ const HeaderContainer = styled.div<{ darkMode: boolean }>`
   justify-content: space-between;
   align-items: center;
   padding: 23px 80px 24px 81px;
-  background: ${(props) => (props.darkMode ? "#202C36" : "#FFF")};
+  background: ${(props) => (props.darkMode ? "#2B3844" : "#FFF")};
   color: ${(props) => (props.darkMode ? "#FFF" : "#111517")};
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
 

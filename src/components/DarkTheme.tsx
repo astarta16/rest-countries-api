@@ -21,7 +21,7 @@ interface ButtonProps {
 const Button = styled.button<ButtonProps>`
   display: flex;
   align-items: center;
-  background-color: ${(props) => (props.darkMode ? "#202C36" : "transparent")};
+  background-color: ${(props) => (props.darkMode ? "#2B3844" : "transparent")};
   color: ${(props) => (props.darkMode ? "white" : "black")};
   border: none;
   outline: none;
